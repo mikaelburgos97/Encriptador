@@ -1,8 +1,8 @@
 
 export const Nav = () => {
   return (
-    <div>
-      <h1>Mikael Burgos</h1>
+    <div className="nav">
+      <p>Mikael Burgos</p>
     </div>
   )
 }
