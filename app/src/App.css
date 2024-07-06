@@ -1,0 +1,142 @@
+:root {
+  --primary-color: #0A3871;
+  --secondary-color: #F3F5FC;
+  --text-color: #495057;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--secondary-color);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.nav {
+  padding: 1rem;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  gap: 2rem;
+}
+
+.principal-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 30em;  /* Set maximum width to 30em */
+  margin: 0 auto;   /* Center the container */
+}
+
+textarea {
+  width: 100%;
+  height: 25em;     /* Set height to 25em */
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  resize: none;
+  padding: 1rem;
+  box-sizing: border-box;  /* Include padding in the width/height calculation */
+}
+
+textarea::placeholder {
+  color: var(--primary-color);
+}
+
+.info-text {
+  font-size: 0.75rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn.primary {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.segundario-container {
+  flex: 1;
+  background-color: white;
+  border-radius: 32px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.segundario-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.segundario-container h4 {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.segundario-container p {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .principal-container {
+    max-width: 100%;  /* Allow full width on smaller screens */
+  }
+
+  textarea {
+    font-size: 1rem;  /* Slightly smaller font on mobile for better fit */
+  }
+
+  .segundario-container img {
+    display: none;
+  }
+
+  .btn-container {
+    flex-direction: column;
+  }
+}
