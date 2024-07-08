@@ -3,13 +3,18 @@ import { Nav } from './Screens/Nav';
 import { Main } from './Screens/Main';
 
 
+
+
 function App() {
+
+  
   return (
     <div className="container">
         <Nav />
-        <Main />
+        <Main
+        />
     </div>
   );
-}
 
+}
 export default App;
