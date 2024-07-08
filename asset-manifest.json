@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Encriptador/static/css/main.b46423de.css",
+    "main.js": "/Encriptador/static/js/main.7ace45a0.js",
+    "static/js/453.a6a97343.chunk.js": "/Encriptador/static/js/453.a6a97343.chunk.js",
+    "static/media/Muñeco.png": "/Encriptador/static/media/Muñeco.261a02840cc35de0bd2e.png",
+    "index.html": "/Encriptador/index.html",
+    "main.b46423de.css.map": "/Encriptador/static/css/main.b46423de.css.map",
+    "main.7ace45a0.js.map": "/Encriptador/static/js/main.7ace45a0.js.map",
+    "453.a6a97343.chunk.js.map": "/Encriptador/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b46423de.css",
+    "static/js/main.7ace45a0.js"
+  ]
+}
